@@ -32,13 +32,5 @@ public class FileUtils {
 		return is;
 	}
 
-	/*public static void copyFiles(File scrFile, File file, org.openqa.selenium.TakesScreenshot driver) {
-		File scrFile1 = ((org.openqa.selenium.TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		//File scrFile = ((TakeScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFiles(scrFile1, new File("/DeployNowAutomation/Screenshots/save_screenshot.png"));
-		
-		
+
 	}
-*/
-	
-}
