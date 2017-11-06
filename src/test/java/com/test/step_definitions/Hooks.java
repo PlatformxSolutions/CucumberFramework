@@ -34,7 +34,7 @@ public class Hooks{
     	
        	DesiredCapabilities capability = DesiredCapabilities.chrome();
 		capability.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-    	System.setProperty("webdriver.chrome.driver", "C:/Users/tejas/Desktop/Jenkins/apache-tomcat-8.5.23/webapps/chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver", "D:/InstalledApplications/apache-tomcat-9.0.1/webapps/chromedriver.exe");
     	
     	
     	/* Code added externally by pallavi */
